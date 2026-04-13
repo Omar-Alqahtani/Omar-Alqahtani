@@ -1,4 +1,4 @@
-Hi, I’m @Omar-Alqahtani.
+Hi, I’m Omar Alqahtani.
 a Mechanical Engineer and here i share the personal projects I worked on in my journey of self education in computer science and machine learning 
 
 
