@@ -3,42 +3,96 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Omar Alqahtani | Profile</title>
-    <!-- Link to your CSS file -->
+    <title>Omar Alqahtani | Developer Profile</title>
     <link rel="stylesheet" href="style.css">
+    <!-- Optional: Link to a Google Font for a premium look -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
 
-    <header>
-        <h1>Omar Alqahtani</h1>
-        <p class="tagline">Web Developer | Creative Thinker | Problem Solver</p>
-    </header>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="#home">Omar Alqahtani</a>
+            <div class="nav-links">
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+            </div>
+        </div>
+    </nav>
 
-    <main>
-        <section id="about">
+    <!-- Hero Section (The main introduction) -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Omar Alqahtani</h1>
+                <p class="tagline">Full-Stack Developer | Building Clean, Scalable Web Applications</p>
+                <a href="#projects" class="cta-button">View My Work</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="container">
             <h2>About Me</h2>
             <p>
-                [Write a compelling, 2-3 sentence summary here about your background, interests, and what you aim to achieve.]
+                [Start writing your story here. Focus on what you are passionate about, your journey in development, and what kind of problems you enjoy solving.]
             </p>
-        </section>
+        </div>
+    </section>
 
-        <section id="portfolio">
-            <h2>Portfolio / Projects</h2>
-            <!-- You will add project cards here later -->
-            <p>List of your best work will go here.</p>
-        </section>
+    <!-- Skills Section -->
+    <section id="skills" class="section">
+        <div class="container">
+            <h2>Technical Skills</h2>
+            <div class="skills-grid">
+                <!-- Add your skills here, using icons or simple text -->
+                <div><strong>Languages:</strong> JavaScript, Python, HTML/CSS</div>
+                <div><strong>Frameworks:</strong> React, Node.js, Django</div>
+                <div><strong>Database:</strong> PostgreSQL, MongoDB</div>
+                <div><strong>Tools:</strong> Git, Docker, AWS</div>
+            </div>
+        </div>
+    </section>
 
-        <section id="contact">
-            <h2>Contact</h2>
-            <p>Email: oqhtani@gmail.com</p>
-            <!-- Add social links here -->
-        </section>
-    </main>
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+        <div class="container">
+            <h2>Featured Projects</h2>
+            <!-- You will add your project cards here -->
+            <div class="project-grid">
+                <!-- Example Project Card (You will duplicate this) -->
+                <div class="project-card">
+                    <h3>Project Title One</h3>
+                    <p>A brief, exciting description of what the project is and what technologies you used.</p>
+                    <a href="#" target="_blank" class="link">View Demo &rarr;</a>
+                </div>
+            </div>
+        </div>
+    </section>
 
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <div class="container">
+            <h2>Get In Touch</h2>
+            <p>I am currently open to new freelance opportunities and collaborations.</p>
+            <div class="social-links">
+                <a href="mailto:your.email@example.com" class="social-link">Email Me</a>
+                <a href="https://linkedin.com/in/yourprofile" target="_blank" class="social-link">LinkedIn</a>
+                <a href="https://github.com/yourusername" target="_blank" class="social-link">GitHub</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
     <footer>
-        <p>&copy; 2026 Omar Alqahtani. All rights reserved.</p>
+        <div class="container">
+            <p>&copy; 2024 Omar Alqahtani. Built with HTML & CSS.</p>
+        </div>
     </footer>
 
 </body>
 </html>
-
